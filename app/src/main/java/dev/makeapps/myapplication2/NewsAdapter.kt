@@ -25,7 +25,7 @@ class NewsAdapter(
 
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         val item = items[position]
-        holder.imgIcon.setImageResource(item.iconResId)
+        holder.imgIcon.setImageResource(item.logoResId)
         holder.tvTitle.text = item.title
         holder.tvDesc.text = item.description
     }

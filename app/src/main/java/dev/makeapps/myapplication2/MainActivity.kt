@@ -16,25 +16,40 @@ class MainActivity : ComponentActivity() {
 
         val newsList = listOf(
             NewsItem(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened",
-                R.mipmap.ic_launcher
+                "World leaders gather for climate summit",
+                "Talks focus on reducing emissions and global cooperation.",
+                R.drawable.world
             ),
             NewsItem(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened",
-                R.mipmap.ic_launcher
+                "Heavy rain expected across the region",
+                "Meteorologists warn of possible flooding in low areas.",
+                R.drawable.weather
             ),
             NewsItem(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened",
-                R.mipmap.ic_launcher
+                "Football final ends in dramatic penalty shootout",
+                "Fans celebrate as the championship trophy is lifted.",
+                R.drawable.soccer
             ),
             NewsItem(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened",
-                R.mipmap.ic_launcher
-            )
+                "New AI chip promises faster performance",
+                "Tech companies race to improve machine learning hardware.",
+                R.drawable.tech
+            ),
+            NewsItem(
+                "Stock markets close higher amid investor optimism",
+                "Economic indicators show signs of recovery.",
+                R.drawable.business
+            ),
+            NewsItem(
+                "Archaeologists uncover ancient city ruins",
+                "Researchers discovered well-preserved structures dating back over 2,000 years.",
+                R.drawable.history
+            ),
+            NewsItem(
+                "New study highlights benefits of daily walking",
+                "Doctors recommend 30 minutes of moderate activity to improve heart health and reduce stress.",
+                R.drawable.medical
+            ),
         )
 
         rvNews.adapter = NewsAdapter(newsList)
