@@ -18,37 +18,37 @@ class MainActivity : ComponentActivity() {
             NewsItem(
                 "World leaders gather for climate summit",
                 "Talks focus on reducing emissions and global cooperation.",
+                "World",
+                "June 1, 2025",
                 R.drawable.world
             ),
             NewsItem(
                 "Heavy rain expected across the region",
                 "Meteorologists warn of possible flooding in low areas.",
+                "Weather",
+                "June 2, 2025",
                 R.drawable.weather
             ),
             NewsItem(
                 "Football final ends in dramatic penalty shootout",
                 "Fans celebrate as the championship trophy is lifted.",
+                "Football",
+                "June 3, 2025",
                 R.drawable.soccer
             ),
             NewsItem(
                 "New AI chip promises faster performance",
                 "Tech companies race to improve machine learning hardware.",
+                "Tech",
+                "June 4, 2025",
                 R.drawable.tech
             ),
             NewsItem(
                 "Stock markets close higher amid investor optimism",
                 "Economic indicators show signs of recovery.",
+                "Business",
+                "June 5, 2025",
                 R.drawable.business
-            ),
-            NewsItem(
-                "Archaeologists uncover ancient city ruins",
-                "Researchers discovered well-preserved structures dating back over 2,000 years.",
-                R.drawable.history
-            ),
-            NewsItem(
-                "New study highlights benefits of daily walking",
-                "Doctors recommend 30 minutes of moderate activity to improve heart health and reduce stress.",
-                R.drawable.medical
             ),
         )
 
